@@ -134,5 +134,5 @@ section {
     transform: rotate(-20deg);
     text-align: center;
     text-shadow: 0 0.5rem 1.5rem #000;
-    user-select: none;
+    user-select: none;      
 }
