@@ -3,9 +3,15 @@ let counter2 = 1;
 
 const sections = document.querySelectorAll('section');
 const progress = document.querySelector('.progress h2');
+const circles = document.querySelectorAll('.circle');
 
 const progressCounter = () => {
-    progress.textContent = `${counter2}/${sections.length}`
+    progress.textContent = `${counter2}/${sections.length}`;
+
+    Array.from(circles).forEach(circle => {
+        circle.style.backgroundColor = 'transparent';
+    })
+    document.querySelector(`.circle-${counter2}`).style.backgroundColor = '#ddd';
 }
 
 window.addEventListener('wheel', (e) => {
