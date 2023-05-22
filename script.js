@@ -76,3 +76,11 @@ document.querySelector('.right-btn').addEventListener('click', () => {
     pageController() && (document.querySelector(`.section-${counter1}`).style.left = '-100vw');
 
 });
+
+document.querySelector('.grapes-img').addEventListener('mouseover', () => {
+    document.querySelector('.section-3-wrapper').style.opacity = '0.5'; 
+});
+
+document.querySelector('.grapes-img').addEventListener('mouseout', () => {
+    document.querySelector('.section-3-wrapper').style.opacity = '1'; 
+});
