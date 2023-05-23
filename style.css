@@ -565,3 +565,69 @@ section {
         transform: translateX(-50%);
     }
 }
+
+@media (max-width: 600px) {
+    .section-1-heading {
+        font-size: 4rem;
+    }
+
+    .sale-bag {
+        width: 15rem;
+    }
+
+    .wine-bottle {
+        width: 30rem;
+    }
+
+    .sale-btn {
+        width: 12rem;
+        height: 3rem;
+        font-size: 1.4rem;
+    }
+
+    .section-3-heading {
+        font-size: 10rem;
+    }
+
+    .frame-img {
+        width: 35rem;
+    }
+
+    .section-4-heading {
+        font-size: 6rem;
+    }
+
+    .new-wines-img {
+        width: 35rem;
+    }
+}
+
+@media (max-width: 500px) {
+    html {
+        font-size: 45%;
+    }
+
+    .left-btn {
+        left: 0.5rem;
+    }
+
+    .right-btn {
+        right: 0.5rem;
+    }
+
+    .nav-list {
+        top: 6.5rem;
+    }
+
+    .section-3-heading {
+        font-size: 8rem;
+    }
+
+    .grapes-img {
+        width: 15rem;
+    }
+
+    .grapes-img:hover {
+        width: 25rem;
+    }
+}
